@@ -20,6 +20,11 @@
         "views/product_supplierinfo_view.xml",
         "views/res_partner_view.xml",
     ],
+    'assets': {
+        'web.assets_backend': [
+            'sale/static/src/js/product_discount_field.js',
+            'sale/static/src/xml/**/*',
+    ]},
     "license": "AGPL-3",
     "installable": True,
     "images": ["images/purchase_discount.png"],

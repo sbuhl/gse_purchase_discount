@@ -32,6 +32,7 @@
                 <field
                     name="discount"
                     attrs="{'readonly': [('qty_invoiced', '!=', 0)]}"
+                    groups="product.group_discount_per_so_line" optional="show" widget="sol_discount"
                 />
             </xpath>
             <xpath
