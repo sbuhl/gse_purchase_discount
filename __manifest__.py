@@ -10,21 +10,22 @@
     "ACSONE SA/NV,"
     "GRAP,"
     "Odoo Community Association (OCA)",
-    "version": "16.0.1.1.2",
+    "version": "17.0.0.1",
     "category": "Purchase Management",
     "website": "https://github.com/OCA/purchase-workflow",
     "depends": ["purchase_stock"],
     "data": [
-        "views/purchase_discount_view.xml",
-        "views/report_purchaseorder.xml",
-        "views/product_supplierinfo_view.xml",
-        "views/res_partner_view.xml",
+        #"views/purchase_discount_view.xml",
+        #"views/report_purchaseorder.xml",
+        #"views/product_supplierinfo_view.xml",
+        #"views/res_partner_view.xml",
     ],
     'assets': {
-        'web.assets_backend': [
-            'sale/static/src/js/product_discount_field.js',
-            'sale/static/src/xml/**/*',
-    ]},
+        #'web.assets_backend': [
+         #   'sale/static/src/js/product_discount_field.js',
+         #   'sale/static/src/xml/**/*',
+          #  ]
+    },
     "license": "AGPL-3",
     "installable": True,
     "images": ["images/purchase_discount.png"],
