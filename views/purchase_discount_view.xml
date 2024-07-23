@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <record model="ir.ui.view" id="purchase_order_line_form2">
         <field name="name">purchase_discount.order.line.form2</field>
